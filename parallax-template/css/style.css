@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #cddc39;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+
+nav .nav-wrapper {
+    padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #c0ca33;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-mob{
+  height: 100%;
+  width: 100%;
+}
+
+  .header-T {
+    margin-top: 10%;
+  }
+
+  .header-S {
+    margin-top: 10%;
+    font-size: 1.5em;
+    font-family: 'Shadows Into Light', cursive; 
+  }
+
+
+  .header-C{
+    margin-bottom: 5%;
+    font-family: 'Leckerli One', cursive;
+    font-size: 1.5em;
+  }
+
+  .header-I{
+    font-family: 'Delius Unicase', cursive;
+  }
+  .col-ser {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .btn-reg{
+    width: 40%;
+  }
+
+  .btn-fin{
+    width: 30%;
+    font-family: 'Delius Unicase', cursive;
+  }
+
+  
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  nav .nav-wrapper {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #00796b;
+}
+
+.social-icon{
+  color: #c0ca33;
+  font-size: 1.5em;
+}
+
+.social-icon:hover{
+  color:#ef5350;
+}
+
